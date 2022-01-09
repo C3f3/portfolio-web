@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;800;900&family=Roboto:wght@100;300;400;900&display=swap');
+
+
+body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.bg-dark{
+  background-color: rgb(13,16,21) !important;
+}
+.bg-black{
+  background-color: #000;
+}
+.navbar-dark{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color:#58595b !important;
+}
+.hero{
+  height: 75vh;
+  font-weight: 900;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+.title-hero{
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  line-height: 2;
+  font-size: 1.4rem;
+}
+.text-hero{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  line-height: 1.2;
+  font-size: 3.8rem;
+}
+.tech-gallery{
+  height: 20vh;
+}
+.text-grey-dark{
+  color:#58595b !important;
+}
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero{
+    height: 100vh;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .title-hero{
+    margin-top: 1.2rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    line-height: 1.2;
+    font-size: 1.1rem;
+  }
+  .text-hero{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    line-height: 1.2;
+    font-size: 2.2rem;
+
+  }
+ }
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/*  Medium devices (tablets, 768px and up) */
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
